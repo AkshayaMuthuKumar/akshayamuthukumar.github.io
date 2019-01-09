@@ -21,7 +21,7 @@
     }
 
     .topnav a{
-    float: left;
+    float: right;
     display: block;
     text-align: center;
     padding: 8px 16px;
