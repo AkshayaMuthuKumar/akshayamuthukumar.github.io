@@ -1,3 +1,5 @@
+ 
+
  body {
     color: #888;
     font-family: "Lato", sans-serif;
@@ -13,31 +15,25 @@
     background-color:#159957;
     background-image:linear-gradient(120deg, #155799, #159957);
     padding:6rem 6rem;
+    width:100%;
     }
 
-    .topnav{
-    overflow:hidden;
-    background-color: #4acaa8;
-    }
-
-    .topnav a{
-    float: right;
-    display: block;
-    text-align: center;
-    padding: 8px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    color:white;
-    }
-
-    .topnav a:hover{
-    background-color:white;
-    color:#4acaa8;
-    }
-
+    .navbar{
+      margin-bottom:0px;
+      border-radius:0;
+      background-color:#4acaa8;
+      width:100%
+      }
+      .colorme{
+         color:white;
+         }
+    
+    
     #about h2{
     color:black;
     }
+
+   
 
     #projects h2{
     color:black;
@@ -46,7 +42,7 @@
     #projects a{
     text-decoration: none;
     }
-
+    
     #contacts h2{
     color:black;
     }
@@ -54,9 +50,9 @@
     #contacts a{
     text-decoration: none;
     }
-
-    @media screen and (max-width:500px) {
-    .topnav a {
+    
+    @media screen and (max-width:600px) {
+    .navbar  {
     float: none;
     display: block;
     }

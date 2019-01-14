@@ -3,65 +3,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <nav class="navbar navbar-default  navbar-fixed-top">
+            <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#home">My Page</a>
+                </div>
+                <div class="collapse navbar-collapse mr-auto" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about" class="colorme"><b>About</b></a></li>
+                    <li><a href="#projects" class="colorme"><b>Projects</b></a></li>
+                    <li><a href=".\AKSHAYA_MUTHUKUMAR.pdf" download class="colorme"> <b>CV</b></a></li>
+                    <li><a href="#contacts" class="colorme"><b>Contacts</b></a></li>
+                </ul>
+            </div>
+    </nav>
     <div class="image">
         <b>
             <h1> Akshaya Muthukumar </h1>
         </b>
         <h2 style="opacity:0.7">Live Your Life ! </p>
     </div>
-    <div style="position: fixed; top:0%;width: 100%;" class="topnav" id="myTopnav">
-        <a href="#about" class="active"><b>About</b></a>
-        <a href="#projects"><b>Projects</b></a>
-        <a href=".\AKSHAYA_MUTHUKUMAR.pdf" download><b>CV</b></a>
-        <a href="#contacts"><b>Contacts</b></a>
-        
-    </div>
+
     <div id="about">
-        <b>
-            <h2 align="center">ABOUT</h2>
-        </b>
-        <p style="padding:4rem 5rem;"> I'm a Information Technology student at Velammal College of Engineering and Technology </p>
+        <div class="container text-center">
+            <b>
+                <h2 align="center">ABOUT</h2>
+            </b>
+            <p style="padding:4rem 5rem;"> I'm a Information Technology student at Velammal College of Engineering and
+                Technology </p>
+        </div>
     </div>
     <div id="projects">
-        <b>
-            <h2 align="center">PROJECTS</h2>
-        </b>
-        <h3 style="padding:2rem 5rem;">Book List Application</h3>
-        <p style="padding:0rem 5rem;">Repo:<a href="https://github.com/akshayamuthukumar/My-BookList/">https://github.com/akshayamuthukumar/My-BookList/</a></p>
-        <p style="padding:0rem 5rem;">Demo:<a href="https://akshayamuthukumar.github.io/My-BookList/">https://akshayamuthukumar.github.io/My-BookList/</a></p>
-        <h3 style="padding:2rem 5rem;">Bootstrap Navigation</h3>
-        <p style="padding:0rem 5rem;">Repo:<a href="https://github.com/akshayamuthukumar/Bootstrap-Navigation/">https://github.com/akshayamuthukumar/Bootstrap-Navigation/</a></p>
-        <p style="padding:0rem 5rem;">Demo:<a href="https://akshayamuthukumar.github.io/Bootstrap-Navigation/">https://akshayamuthukumar.github.io/Bootstrap-Navigation/</a></p>
-        <h3 style="padding:2rem 5rem;">My Hardware Shop</h3>
-        <p style="padding:0rem 5rem;">Repo:<a href="https://github.com/akshayamuthukumar/My-HardwareShop/">https://github.com/akshayamuthukumar/My-HardwareShop/</a></p>
-        <p style="padding:0rem 5rem;">Demo:<a href="https://akshayamuthukumar.github.io/My-HardwareShop/">https://akshayamuthukumar.github.io/My-HardwareShop/</a></p>
+        <div class="container">
+            <b>
+                <h2 class="container text-center" align="center">PROJECTS</h2>
+            </b>
+            <h3 class="container " style="padding:2rem 5rem;">Book List Application</h3>
+            <p class="container " style="padding:0rem 5rem;">Repo:<a href="https://github.com/akshayamuthukumar/My-BookList/">https://github.com/akshayamuthukumar/My-BookList/</a></p>
+            <p class="container " style="padding:0rem 5rem;">Demo:<a href="https://akshayamuthukumar.github.io/My-BookList/">https://akshayamuthukumar.github.io/My-BookList/</a></p>
+            <h3 class="container " style="padding:2rem 5rem;">Bootstrap Navigation</h3>
+            <p class="container " style="padding:0rem 5rem;">Repo:<a href="https://github.com/akshayamuthukumar/Bootstrap-Navigation/">https://github.com/akshayamuthukumar/Bootstrap-Navigation/</a></p>
+            <p class="container " style="padding:0rem 5rem;">Demo:<a href="https://akshayamuthukumar.github.io/Bootstrap-Navigation/">https://akshayamuthukumar.github.io/Bootstrap-Navigation/</a></p>
+            <h3 class="container " style="padding:2rem 5rem;">My Hardware Shop</h3>
+            <p class="container " style="padding:0rem 5rem;">Repo:<a href="https://github.com/akshayamuthukumar/My-Shop/">https://github.com/akshayamuthukumar/My-Shop/</a></p>
+            <p class="container " style="padding:0rem 5rem;">Demo:<a href="https://akshayamuthukumar.github.io/My-Shop/">https://akshayamuthukumar.github.io/My-Shop/</a></p>
+        </div>
     </div>
     <div id="contacts">
-        <b>
-            <h2 align="center">CONTACTS</h2>
-        </b>
-        <ul type="none" style="padding:0rem 5rem;">
-            <li>
-                <i class='fa fa-linkedin-square' style="font-size:36px; color:#159957"></i>
-                <a href="https://www.linkedin.com/in/akshaya-muthukumar-9285a9138/"><span>&nbsp;</span>
-                    linkedin.com/akshaya </a>
-            </li>
-            <br>
-            <li>
-                <i class='fa fa-github-square' style="font-size:36px; color:#159957"></i>
-                <a href="https://akshayamuthukumar.github.io/"><span>&nbsp;</span> github.com/akshaya</a>
-            </li>
-            <br>
-            <li>
-                <i class='fa fa-envelope' style="font-size:26px; color:#159957"></i>
-                <a href=""><span>&nbsp;</span> akshaya1907@gmail.com</a>
-            </li>
-            <br>
-        </ul>
+        <div class="container">
+            <b>
+                <h2 align="center">CONTACTS</h2>
+            </b>
+            <ul type="none" style="padding:0rem 5rem;">
+                <li>
+                    <i class='fa fa-linkedin-square' style="font-size:36px; color:#159957"></i>
+                    <a href="https://www.linkedin.com/in/akshaya-muthukumar-9285a9138/"><span>&nbsp;</span>
+                        linkedin.com/akshaya </a>
+                </li>
+                <br>
+                <li>
+                    <i class='fa fa-github-square' style="font-size:36px; color:#159957"></i>
+                    <a href="https://akshayamuthukumar.github.io/"><span>&nbsp;</span> github.com/akshaya</a>
+                </li>
+                <br>
+                <li>
+                    <i class='fa fa-envelope' style="font-size:26px; color:#159957"></i>
+                    <a href=""><span>&nbsp;</span> akshaya1907@gmail.com</a>
+                </li>
+                <br>
+            </ul>
+        </div>
     </div>
 </body>
 
