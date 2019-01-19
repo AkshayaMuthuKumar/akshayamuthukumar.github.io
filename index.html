@@ -1,39 +1,51 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="HandheldFriendly" content="true">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+
+    <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+    <script src=".\app.js"></script>
 </head>
+
 <body>
-    <nav class="navbar navbar-default  navbar-fixed-top">
-            <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#home">My Page</a>
-                </div>
-                <div class="collapse navbar-collapse mr-auto" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#about" class="colorme"><b>About</b></a></li>
-                    <li><a href="#projects" class="colorme"><b>Projects</b></a></li>
-                    <li><a href=".\AKSHAYA_MUTHUKUMAR.pdf" download class="colorme"> <b>CV</b></a></li>
-                    <li><a href="#contacts" class="colorme"><b>Contacts</b></a></li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand" href="#home">
+            <b>Akshaya Muthukumar</b>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about"> About </a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href=".\AKSHAYA_MUTHUKUMAR.pdf" target="blank">CV</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
     </nav>
     <div class="image">
-        <b>
-            <h1> Akshaya Muthukumar </h1>
-        </b>
-        <h2 style="opacity:0.7">Live Your Life ! </p>
+        <div class="container text-center"><br>
+            <b>
+                <h1> Akshaya Muthukumar </h1>
+            </b>
+            <h2 style="opacity:0.7">Live Your Life ! </p>
+        </div>
     </div>
-
     <div id="about">
         <div class="container text-center">
             <b>
@@ -45,45 +57,67 @@
     </div>
     <div id="projects">
         <div class="container">
-            <b>
-                <h2 class="container text-center" align="center">PROJECTS</h2>
-            </b>
-            <h3 class="container " style="padding:2rem 5rem;">Book List Application</h3>
-            <p class="container " style="padding:0rem 5rem;">Repo:<a href="https://github.com/akshayamuthukumar/My-BookList/">https://github.com/akshayamuthukumar/My-BookList/</a></p>
-            <p class="container " style="padding:0rem 5rem;">Demo:<a href="https://akshayamuthukumar.github.io/My-BookList/">https://akshayamuthukumar.github.io/My-BookList/</a></p>
-            <h3 class="container " style="padding:2rem 5rem;">Bootstrap Navigation</h3>
-            <p class="container " style="padding:0rem 5rem;">Repo:<a href="https://github.com/akshayamuthukumar/Bootstrap-Navigation/">https://github.com/akshayamuthukumar/Bootstrap-Navigation/</a></p>
-            <p class="container " style="padding:0rem 5rem;">Demo:<a href="https://akshayamuthukumar.github.io/Bootstrap-Navigation/">https://akshayamuthukumar.github.io/Bootstrap-Navigation/</a></p>
-            <h3 class="container " style="padding:2rem 5rem;">My Hardware Shop</h3>
-            <p class="container " style="padding:0rem 5rem;">Repo:<a href="https://github.com/akshayamuthukumar/My-Shop/">https://github.com/akshayamuthukumar/My-Shop/</a></p>
-            <p class="container " style="padding:0rem 5rem;">Demo:<a href="https://akshayamuthukumar.github.io/My-Shop/">https://akshayamuthukumar.github.io/My-Shop/</a></p>
+            <div class="row">
+                <b>
+                    <h2 class="text-center" \>PROJECTS</h2>
+                </b>
+            </div>
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="card">
+                        <img class="card-img-top" src=".\images\project_1.JPG" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Guhan Hardwares</h4>
+                            <p class="card-text">This </p>
+                            <a href="https://akshayamuthukumar.github.io/My-Shop/" target="blank" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card">
+                        <img class="card-img-top" src=".\images\project_2.JPG" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Book List Application</h4>
+                            <p class="card-text">This </p>
+                            <a href="https://akshayamuthukumar.github.io/My-BookList/" target="blank" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card">
+                        <img class="card-img-top" src=".\images\project_3.JPG" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Bootstrap Navigation</h4>
+                            <p class="card-text">This </p>
+                            <a href="https://akshayamuthukumar.github.io/Bootstrap-Navigation/" target="blank" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div id="contacts">
+    <footer class="bg-primary" id="footer">
         <div class="container">
-            <b>
-                <h2 align="center">CONTACTS</h2>
-            </b>
-            <ul type="none" style="padding:0rem 5rem;">
-                <li>
+            <div class="row">
+                <div class="col-md-4">
                     <i class='fa fa-linkedin-square' style="font-size:36px; color:#159957"></i>
                     <a href="https://www.linkedin.com/in/akshaya-muthukumar-9285a9138/"><span>&nbsp;</span>
                         linkedin.com/akshaya </a>
-                </li>
-                <br>
-                <li>
+                    </li>
+                </div>
+                <div class="col-md-4">
                     <i class='fa fa-github-square' style="font-size:36px; color:#159957"></i>
                     <a href="https://akshayamuthukumar.github.io/"><span>&nbsp;</span> github.com/akshaya</a>
-                </li>
-                <br>
-                <li>
+
+                </div>
+                <div class="col-md-4">
                     <i class='fa fa-envelope' style="font-size:26px; color:#159957"></i>
                     <a href=""><span>&nbsp;</span> akshaya1907@gmail.com</a>
-                </li>
-                <br>
-            </ul>
+
+                </div>
+            </div>
         </div>
-    </div>
+    </footer>
 </body>
 
 </html>
