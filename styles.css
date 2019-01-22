@@ -40,3 +40,10 @@ a {
    color:#fff;
 }
 
+.card-body h4 {
+   color: #333;
+}
+
+.card-body p {
+   color: #333;
+}
